@@ -80,8 +80,9 @@ const Button = styled.button`
   background-color: #262e85;
   color: white;
   font-weight: 500;
-  width: 100px;
-  padding: 10px;
+  width: auto;
+  min-width: 120px;
+  padding: 10px 20px;
   border: none;
   border-radius: 5px;
   cursor: pointer;

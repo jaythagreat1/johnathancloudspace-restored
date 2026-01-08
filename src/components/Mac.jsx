@@ -1,6 +1,5 @@
 import React, { useRef } from "react";
 import { useGLTF } from "@react-three/drei";
-import { a as three } from "@react-spring/three";
 
 export default function Mac({ ...props }) {
   const group = useRef();
@@ -24,3 +23,5 @@ export default function Mac({ ...props }) {
     </group>
   );
 }
+
+useGLTF.preload("/mac-draco.glb");

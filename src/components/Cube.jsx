@@ -25,7 +25,7 @@ const Cube = () => {
         <RenderTexture attach="map">
           <PerspectiveCamera makeDefault position={[0, 0, 5]} />
           <color attach="background" args={['lightblue']} />
-          <Image ref={textRef} url="./img/Techwlogo.jpg" scale={4} />
+          <Image ref={textRef} url="./img/Techwlogo.jpg" scale={2.5} />
         </RenderTexture>
       </meshPhongMaterial>
     </mesh>
